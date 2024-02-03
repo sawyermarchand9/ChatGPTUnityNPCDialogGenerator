@@ -20,7 +20,7 @@ public class ChatGPTClient
 
     /** 
     This method contains the networking code to post a question to the Chat GPT Text api 
-    Developer can change model to a get different response, however GPT_TURBO_INSTRUCT seems to work better for this extensions purpose
+    Developer can change model to get a different response, however GPT_TURBO_INSTRUCT seems to work better for this extensions purpose
     **/
     private async Task QueryTextGPT(string message)
     {

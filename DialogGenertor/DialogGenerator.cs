@@ -22,7 +22,7 @@ public class DialogGenerator : EditorWindow
     private void OnGUI()
     {
         GUILayout.Space(10);
-        GUILayout.Label("Generate Contained Plane", EditorStyles.boldLabel);
+        GUILayout.Label("Generate NPC Dialog", EditorStyles.boldLabel);
         npcName = EditorGUILayout.TextField("NPC Name", npcName);
         GUILayout.Space(10);
         GUILayout.Label("Context Feilds", EditorStyles.boldLabel);
